@@ -72,6 +72,7 @@ footer {
  }
  .box:last-child {
   margin-bottom: 0;
+  margin-right: auto;
  }
  .img1, .img2, .img3 {
   width: 100%;
