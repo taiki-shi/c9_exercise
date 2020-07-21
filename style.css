@@ -31,19 +31,19 @@ main {
 .img1 {
  height: 150px;
  background-image: url(img/flow01.png);
- background-position: top;
+ background-position: center;
  background-size: cover;
 }
 .img2 {
  height: 150px;
  background-image: url(img/flow02.png);
  background-size: cover;
- background-position: top;
+ background-position: center;
 }
 .img3 {
  height: 150px;
  background-image: url(img/flow03.png);
- background-position: top;
+ background-position: center;
  background-size: cover;
 }
 .number {
@@ -59,4 +59,21 @@ main {
 footer {
   background-color: #aaaaaa;
   height: 50px;
+}
+@media screen and (max-width:768px) {
+ main {
+  width: 100%;
+ }
+ .box {
+  float: none;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+ }
+ .box:last-child {
+  margin-bottom: 0;
+ }
+ .img1, .img2, .img3 {
+  width: 100%;
+ }
 }
